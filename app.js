@@ -13,16 +13,16 @@ var db = mysql.createConnection({
 })
 
 
-db.connect(function(err){
+/*db.connect(function(err){
     if (err) console.log(err)
 	else console.log("Connected to database. OK!....")
-})
+})*/
 
 
 //------------------------------------------------
 
 // configure the webSocket server:
-const wssPort =  8081;             // port number for the webSocket server
+const wssPort =  80;             // port number for the webSocket server
 const wss = new WebSocketServer({port: wssPort}); // the webSocket server
 var clients = new Array;         // list of client connections
 
