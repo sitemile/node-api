@@ -28,7 +28,7 @@ var clients = new Array;         // list of client connections
 
 
 //const crypto = require('crypto')
-console.log("Starting node server on easychatdesk")
+console.log("Starting node server on node js")
 console.log("------------------------------")
 console.log("Waiting for customer connections...")
 
